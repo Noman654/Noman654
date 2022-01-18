@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Noman654
 - 👀 I’m interested in cyber security
-- 🌱 I’m currently learning Data Science
-- 💞️ I’m looking to collaborate on Web developing
+- 🌱 I’m currently working in Data Science
+- 💞️ I’m looking to collaborate on Web developing and data science 
 - 📫 How to reach me u can contact +918279882326
 
 <!---
