@@ -2,7 +2,6 @@
 - 👀 I’m interested in cyber security
 - 🌱 I’m currently working in Data Science
 - 💞️ I’m looking to collaborate on Web developing and data science 
-- 📫 How to reach me u can contact +918279882326
 
 <!---
 Noman654/Noman654 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
