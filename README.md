@@ -1,73 +1,82 @@
-# 👋 Hi, I'm Mohd Nauman  
+# 👋 Hi, I'm Mohd Nauman
 
-🌟 **Data Engineer | Python Developer | Problem Solver | Technical Trainer**  
-🔍 Passionate about crafting scalable solutions, optimizing data pipelines, and tackling real-world challenges with data.  
+🌟 **Data Platform Engineer | Python Developer | Synthetic-Data & OCR Nerd**  
+🔍 I build **high-throughput, cost-efficient** data platforms for **Indic AI**—from petabyte-scale ingestion to governed metadata and evaluation.
 
-🎓 **Pursuing a BSc in Programming and Data Science** from **IIT Madras**  
-📍 **Based in Bengaluru, India**
-
----
-
-## 👨‍💻 About Me  
-
-A **Data Engineer** and **Python Developer** with a passion for designing scalable systems to process and manage large-scale data efficiently. I specialize in optimizing backend operations, reducing costs, and improving performance to deliver impactful results.  
+🎓 **BSc in Programming & Data Science (ongoing)** — **IIT Madras**  
+📍 **Bengaluru, India**
 
 ---
 
-### 🌟 What I Bring:
-- **Data Engineering Expertise**: Skilled in designing and optimizing ETL pipelines with tools like **PySpark**, **Kafka**, and cloud platforms such as **AWS** and **Azure**.  
-- **Backend Development**: Experienced in creating robust web applications using **Flask** and **FastAPI**.  
-- **Efficiency & Optimization**: Consistently deliver solutions that reduce storage costs by **60%** and improve process speeds by **90%**.  
+## 🚀 Snapshot
 
-### 💡 Fun Fact:
-- I once reduced a Spark pipeline’s processing time from **2 days to just 30 minutes**, saving alot in compute costs! 🚀  
----
-
-### 🛠️ Technologies I Love:
-- **Languages**: ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  
-- **Frameworks**: ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white) ![PySpark](https://img.shields.io/badge/-PySpark-F88923?logo=apachespark&logoColor=white)  
-- **Databases**: ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) ![Azure SQL](https://img.shields.io/badge/-Azure_SQL-0078D4?logo=microsoftazure&logoColor=white)  
-- **Cloud**: ![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoftazure&logoColor=white)  
+- **TB → PB scale** pipelines with **10× throughput (~1 TB/hr)**, **33% lower infra cost**, **60% storage reduction**.  
+- Built **Ayurveda SFT** (≈ **5M Q&A** from 1K+ books) and **domain benchmarks** (Ayurveda, Finance, Legal, Agri) for fair evaluation of Indic LLMs.  
+- **Chitrakshara** co-author — a large multilingual multimodal dataset (**193M images, 30B tokens**).  
+- Architected hybrid on-prem stack (JuiceFS + DuckDB) with **DataHub lineage for 1M+ datasets**; reproducible and governed.  
+- Engineered async+throttled Archive.org ingestion (**10× faster**, scaled to **10M+ books**).  
 
 ---
 
-## 📂 Highlighted Projects  
+## 🧭 What I Do
 
-### **Building a Scalable Pipeline for Indic Image Dataset Extraction**  
-- Engineered a robust pipeline using **Hugging Face Obelics** to fetch images and text from over **230 million websites** via Common Crawl, focusing on Indic content.  
-- Designed a **scalable, distributed architecture** to handle high-volume requests and bypass rate limits effectively.  
-- Successfully curated a dataset of **50–100 million images** paired with text, enabling advanced applications.  
-
-### 🔗 [**One-Click Data Download Tool**](https://github.com/Noman654/data_scraper)  
-- Developed a tool for seamless data downloads from sources like **Hugging Face** and **Archive**.  
-- Optimized for **30–50% faster speeds** using parallel processing and reduced I/O overhead.  
-- Capable of downloading **terabytes of data** in under an hour.  
-
-### 🔗 **Malaysia Airlines Forecasting System**  
-- Designed and implemented a forecasting pipeline for airline revenue and passenger trends.  
-- Reduced storage costs by **60%** and optimized process speeds by **90%**.  
+- **Data Platforms & Governance:** DataHub lineage, metadata tagging, SLAs/ownership, reproducible training data.  
+- **Massive Ingestion Pipelines:** Common Crawl (WARC/WET), Obelics-style web curation, Archive/NDLI collectors.  
+- **OCR → Post-Correction:** Surya/Kraken/Tesseract Indic, quality filters, taxonomy tagging for downstream RAG/SFT.  
+- **Serving & Synthetic Data:** sglang/vLLM setups, prompt/rubric pipelines, evaluation harnesses for Indic domains.
 
 ---
 
-## 📈 GitHub Stats  
+## 🏆 Highlights / Wins
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Noman654&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Noman654&layout=compact&theme=radical)  
-
----
-
-## 📜 Certifications  
-
-- [Harvard CS50](https://cs50.harvard.edu/certificates/edbccd3e-9ba1-4304-ad48-e81643a65a82)  
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/48bc4622-936d-401f-b059-3632ceb21d6b/public_url)  
-- [Azure Data Fundamentals](https://www.credly.com/badges/48bc4622-936d-401f-b059-3632ceb21d6b/public_url)  
-- [SQL Intermediate](https://www.hackerrank.com/certificates/5a966a20be62)  
+- Switched CC ingestion from **WET → WARC** for Indic LMs → **+3% training efficiency**.  
+- **OBELICS-inspired** pipeline over **230M+ URLs**, curated **193M Indic image–text**; **-33% cost**.  
+- **Airline forecasting** pipelines: **80–90% runtime cut**, **40–60% storage saved**.  
+- Kafka + PySpark persona generation, real-time DB syncs, and **Presto** for complex analytics at scale.  
 
 ---
 
-## 📬 Let's Connect  
+## 🧰 Tech Stack
 
-- 💌 **Email**: [mohdnauman330@gmail.com](mailto:mohdnauman330@gmail.com)  
-- 💼 **LinkedIn**: [linkedin.com/in/nauman330](https://www.linkedin.com/in/nauman330/)  
-- 📂 **GitHub**: [github.com/Noman654](https://github.com/Noman654)  
+- **Languages:** Python (PySpark/Pandas), SQL, Bash, JavaScript  
+- **Data/Compute:** Spark, Kafka, DuckDB, Trino/Presto, Airflow, DataHub, Scrapy  
+- **AI/ML:** sglang, Vertex AI, OCR (Surya/Kraken/Tesseract), evaluation/benchmarks  
+- **Cloud & Infra:** AWS (S3/EMR/Glue/Redshift/EC2), Azure (Blob/Functions/Databricks/SQL), Docker, CI/CD  
+- **Storage/Query:** JuiceFS, MinIO, Redshift, Azure SQL, MySQL, MongoDB  
 
+---
+
+## 🔬 Selected Projects
+
+### **Bharat Data Sagar — Hybrid Data Platform**
+Petabyte-ready platform with **JuiceFS + DuckDB** and **DataHub lineage** across **1M+ datasets**. Reproducible pipelines for LLM training/eval; standardized tags for NDLI/Archive/CC sources.
+
+### **AyurParam / BhashaBench-Ayur (Internal)**
+Domain-specialized **Ayurveda SFT** (~5M Q&A), bilingual prompts, and robust **benchmark** design (easy↔hard strata, cultural relevance). Drove **best-in-class** results in size class.
+
+### **Obelics-style Indic Web Crawler**
+Scaled to **230M+ URLs**; curated **193M** image-text pairs; **-33% infra cost** with careful batching, filtering, and de-dup.
+
+### **One-Click Data Downloader**
+Parallelized downloader for **HF/Archive/arXiv**, moving **TBs in ~60 minutes** with throttling, retries, and manifesting.  
+Repo: `data_scraper` (Hugging Face + Archive focus)
+
+---
+
+## 📜 Certifications & Recognition
+
+- **Harvard CS50** (score 9.9, **2nd Rank** in Diploma)  
+- **AWS Cloud Practitioner**, **Azure Data Fundamentals**, **SQL (Intermediate)**  
+- **Extension Mania (IIT Madras) — Winner**  
+- **Publication:** *A Large Multilingual Multimodal Dataset for Indian Languages* — **193M images, 30B tokens**  
+
+---
+
+
+
+## 🤝 Let’s Connect
+
+- 💌 **Email:** [mohdnauman330@gmail.com](mailto:mohdnauman330@gmail.com)  
+- 💼 **LinkedIn:** [linkedin.com/in/nauman330](https://www.linkedin.com/in/nauman330/)  
+- 🧪 **Portfolio:** [Portfolio Website](https://v0-fork-of-portfolio-website-21ibvn.vercel.app/)  
+- 🐙 **GitHub:** [github.com/Noman654](https://github.com/Noman654)
