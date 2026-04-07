@@ -77,6 +77,6 @@ Repo: `data_scraper` (Hugging Face + Archive focus)
 ## 🤝 Let’s Connect
 
 - 💌 **Email:** [mohdnauman330@gmail.com](mailto:mohdnauman330@gmail.com)  
-- 💼 **LinkedIn:** [linkedin.com/in/nauman330](https://www.linkedin.com/in/nauman-data-llm/)  
+- 💼 **LinkedIn:** [linkedin.com/in/nauman-data-llm](https://www.linkedin.com/in/nauman-data-llm/)  
 - 🧪 **Portfolio:** [Portfolio Website](https://v0-fork-of-portfolio-website-21ibvn.vercel.app/)  
 - 🐙 **GitHub:** [github.com/Noman654](https://github.com/Noman654)
