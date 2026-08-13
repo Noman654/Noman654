@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Mohd Nauman
 
-**Data Platform Engineer @ BharatGen** — I build the data that makes LLMs work, and the platform behind it.
+**Data Research Engineer @ BharatGen** — I build the data that makes LLMs work, and the platform behind it.
 
 I build **high-throughput, cost-efficient data platforms for LLMs** — from petabyte-scale ingestion to governed metadata, evaluation harnesses, and agentic delivery. Currently leading data infrastructure for **India's Sovereign AI** at BharatGen.
 
