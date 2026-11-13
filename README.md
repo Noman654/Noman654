@@ -16,7 +16,7 @@ I build **high-throughput, cost-efficient data platforms for LLMs** — from pet
 
 ## 📄 Publications
 
-- **Chitrakshara: A Large Multilingual Multimodal Dataset for Indian Languages** — CVPR 2025 (VLMs4All Workshop). 193M images, 30B tokens. [HuggingFace](https://huggingface.co/bharatgenai/chitrakshara)
+- **Chitrakshara: A Large Multilingual Multimodal Dataset for Indian Languages** — CVPR 2025 (VLMs4All Workshop). 193M images, 30B tokens. [OpenReview](https://openreview.net/forum?id=CHrzyIKfPd) · [HuggingFace](https://huggingface.co/bharatgenai/chitrakshara)
 - **AyurParam: A State-of-the-Art Bilingual Language Model for Ayurveda** — [ArXiv 2511.02374](https://arxiv.org/abs/2511.02374) · [HuggingFace](https://huggingface.co/bharatgenai/AyurParam)
 - **BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains** — Findings of EMNLP 2026 · [ACL Anthology](https://aclanthology.org/2026.findings-emnlp.2304/) · [ArXiv 2510.25409](https://arxiv.org/abs/2510.25409)
 
