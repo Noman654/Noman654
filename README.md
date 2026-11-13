@@ -79,7 +79,7 @@ Applying Tiago Forte's PARA method as a gamified personal knowledge system. Side
 
 ## 🏆 Recognition
 
-- **Harvard CS50** — score 9.9
+- **Harvard CS50** — scored 9.9/10
 - **2nd Rank in Diploma** — Rajokari Institute of Technology
 - **Extension Mania (IIT Madras)** — Winner
 - **AWS Cloud Practitioner**, **Azure Data Fundamentals**, **SQL (Intermediate)** certified
