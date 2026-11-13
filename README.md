@@ -1,8 +1,16 @@
 # 👋 Hi, I'm Mohd Nauman
 
-**Data Research Engineer @ BharatGen** — I build the data that makes LLMs work, and the platform behind it.
+**Data Research Engineer @ BharatGen** — I build the data and the serving infrastructure for LLMs.
 
 I build **high-throughput, cost-efficient data platforms for LLMs** — from petabyte-scale ingestion to governed metadata, evaluation harnesses, and agentic delivery. Currently leading data infrastructure for **India's Sovereign AI** at BharatGen.
+
+---
+
+## ✍️ Writing
+
+**[Where Did the Time Go? Serving a Hybrid LLM on H100](https://noman654.github.io/hybrid-llm-serving/)** — profiling and optimizing Qwen3.8-27B (Gated DeltaNet + attention) on vLLM: **1.72× faster serving on one H100**, +10% on an already-tuned 8×H100 node, and a bit-exact fused Triton kernel. The biggest win was one config value, found by profiling the CPU, not the GPU. [Code](https://github.com/Noman654/hybrid-llm-serving)
+
+**[MoE Explained](https://noman654.github.io/moe-explained/)** — a six-chapter interactive book on Mixture-of-Experts, from what an expert is to the load-balancing math behind 671B-parameter models. Every formula from the primary paper. [Code](https://github.com/Noman654/moe-explained)
 
 ---
 
@@ -10,15 +18,14 @@ I build **high-throughput, cost-efficient data platforms for LLMs** — from pet
 
 - **Chitrakshara: A Large Multilingual Multimodal Dataset for Indian Languages** — CVPR 2025 (VLMs4All Workshop). 193M images, 30B tokens. [HuggingFace](https://huggingface.co/bharatgenai/chitrakshara)
 - **AyurParam: A State-of-the-Art Bilingual Language Model for Ayurveda** — [ArXiv 2511.02374](https://arxiv.org/abs/2511.02374) · [HuggingFace](https://huggingface.co/bharatgenai/AyurParam)
-- **BhashaBench V1 - EMNLP2026: A Comprehensive Benchmark for the Quadrant of Indic Domains** — [ArXiv 2510.25409](https://arxiv.org/abs/2510.25409)
+- **BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains** — EMNLP 2026 · [ArXiv 2510.25409](https://arxiv.org/abs/2510.25409)
 
 ---
 
 ## 🚀 Snapshot
 
 - Delivered a **1T+ token pre-training corpus** for BharatGen's foundation models — Common Crawl WARC, 11M books (Internet Archive), 30M+ open-access papers, 7M GitHub repos.
-- Co-authored **3 papers**: Chitrakshara (CVPR 2025), AyurParam, BhashaBench V1.
-- **~10M Q&A synthetic-data pipeline** that shipped AyurParam, the highest-SOTA Ayurveda LLM.
+- **~10M Q&A synthetic-data pipeline** that shipped AyurParam, a state-of-the-art Ayurveda LLM.
 - **BhashaBench** — Indic LLM evaluation benchmark, adopted as BharatGen's standard eval framework.
 - Cut crawling infrastructure **87.5%** (40 → 5 machines) with zero throughput loss.
 - Rewrote the tokenizer in **Rust** for a 3× SLURM-native training speedup.
@@ -27,13 +34,13 @@ I build **high-throughput, cost-efficient data platforms for LLMs** — from pet
 
 ## 🔬 Building
 
-### 🎬 [Motionify](motionify.app) — AI Video Editor for Talking-Head Shorts
+### 🎬 [Motionify](https://motionify.app) — AI Video Editor for Talking-Head Shorts
 Desktop app (**Electron + React 19 + TypeScript**) that turns raw talking-head footage into high-retention edutainment shorts. Uses **Gemini 2.5** for multimodal transcription and GSAP animation generation, with an **FFmpeg** render pipeline. Solo build, end-to-end.
 
 ### 🌾 Krishi Bot — Agentic AI Advisor for Agriculture + Government Services *(BharatGen)*
 BharatGen's live AI product for farmers. **RAG-optimized agent with tool use**: location-aware search, government policy lookup, and form-filling workflows. Curated the knowledge base and shaped the agent's retrieval and tool layer.
 
-### 📚 [dataengineer_prep](https://github.com/Noman654/dataengineer_prep) — 73★ Open-Source DE Learning Repo
+### 📚 [dataengineer_prep](https://github.com/Noman654/dataengineer_prep) — 90★ Open-Source DE Learning Repo
 Data engineering interview prep — PySpark notebooks, theory docs, quizzes, and company-specific patterns. Built around **Zephyr Coffee Co.**, a fictional 200-store chain with messy data. Community-adopted.
 
 ### 🌊 Bharat Data Sagar — On-Prem PB-Scale Data Platform *(BharatGen, internal)*
@@ -48,8 +55,8 @@ Applying Tiago Forte's PARA method as a gamified personal knowledge system. Side
 
 - **Pretraining Data Engineering** — corpus curation at PB scale, dedup, contamination filtering, quality gating (Common Crawl WARC, Archive.org, ArXiv, GitHub).
 - **Synthetic Data, Evaluation & Harnesses** — context-grounded Q&A generation, benchmark design, LLM-judge pipelines, and evaluation harnesses for standardized model scoring.
-- **Agent Building** — RAG-optimized agents with tool use (location search, policy lookup, form filling); production advisory agents for real-world advisory workflows. Agent Harness for complex task. 
-- **Model Serving & Inference** — vLLM + Ray multi-node (1 → 50 nodes), ONNX optimization, Rust tokenizer.
+- **Agent Building** — RAG-optimized agents with tool use (location search, policy lookup, form filling); production advisory agents for real-world advisory workflows. Agent harnesses for complex, multi-step tasks.
+- **Model Serving & Inference** — vLLM + Ray multi-node (1 → 50 nodes), H100 serving optimization (CUDA graphs, custom Triton kernels, Nsight Systems profiling), ONNX optimization, Rust tokenizer.
 - **Data Platforms & Governance** — on-prem lakehouse (JuiceFS + DuckDB + DataHub), Great Expectations, dbt tests, custom Indic-script validators.
 
 ---
@@ -58,7 +65,7 @@ Applying Tiago Forte's PARA method as a gamified personal knowledge system. Side
 
 - **Languages:** Python (PyTorch, PySpark, Pandas), Rust, SQL, Bash, JavaScript
 - **Data / Compute:** Spark, Kafka, Debezium (CDC), Airflow, DataHub, DuckDB, Trino/Presto, Scrapy, JuiceFS
-- **AI / ML:** vLLM + Ray, SGLang, Essential AI, ONNX, Surya OCR, Vertex AI, Great Expectations
+- **AI / ML:** vLLM + Ray, SGLang, Triton, CUDA, Nsight Systems, ONNX, Surya OCR, Vertex AI, Great Expectations
 - **Cloud / Infra:** AWS (S3, EMR, Glue, Redshift, EC2), Azure (Blob, Functions, Databricks, SQL), Docker, SLURM, GitHub Actions
 
 ---
@@ -67,7 +74,6 @@ Applying Tiago Forte's PARA method as a gamified personal knowledge system. Side
 
 - **AI / Data Instructor @ upGrad** — applied data engineering and LLMs.
 - **Head Organizer, Kafka Mumbai Community** — meetups, 10+ talks, technical discussions.
-- **Maintainer, [dataengineer_prep](https://github.com/Noman654/dataengineer_prep)** — 73★ open-source DE learning repo.
 
 ---
 
